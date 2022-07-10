@@ -1,7 +1,8 @@
 package oopsproblems;
-
+import java.util.Scanner;
 public class DeckOfCards {
-	int noOfPlayers = 4;
+	Scanner sc = new Scanner(System.in);
+	int noOfPlayers = sc.nextInt() ;
 	int noOfCardsPerPerson = 9;
 	String playersArray[][] = new String [noOfPlayers][noOfCardsPerPerson];
 	String deckOfCards [] = new String [52];
